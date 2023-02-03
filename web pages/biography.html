@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bio.css">
+    <link rel="stylesheet" href="css/header.css">
+    <title>All About IU</title>
+    <link rel="icon" type="image/x-icon" href="photos/logo.png">
+</head>
+<body>
+<!-- header -->
+<div class="menu">
+    <div class="container flex">
+        <div class="logo">
+            <img src="photos/logo.png" alt="logo">
+            <a href="../index.html" class="logo-title">All About IU</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="biography.html" class="link">Biography</a></li>
+                <li><a href="albums.html" class="link">Albums</a></li>
+                <li><a href="films.html" class="link">Films and TV Dramas</a></li>
+                <li><a href="photos.html" class="link">Photos</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+<!-- biography -->
+<section class="life">
+    <div class="container grid">
+        <div class="life-text">
+            <h1 class="life-h1">Biography</h1>
+            <p class="life-p1">Lee Ji-eun (IU) was born on May 16, 1993, in Songjeong-dong, Seoul, South Korea. At an early age, IU became interested in pursuing a career in the entertainment industry and began attending acting classes. Following her elementary school years, her family's financial situation deteriorated, and they eventually moved to the nearby Uijeongbu, in Gyeonggi Province. She and her younger brother lived apart from their parents in a studio room with their grandmother and cousin for over one year in conditions of great poverty. IU had little contact with her parents over this period of time but felt reassured under her grandmother's care. 
+                During her middle school years, IU found her passion for singing and decided to become a singer after being applauded for a performance she gave at her school's sports competition. She attended 20 auditions but failed all of them, and was also scammed by fake entertainment companies. She later trained at Good Entertainment with Uee, Yubin, Heo Ga-yoon, and Jun Hyo-seong. After signing with LOEN Entertainment in 2007, she moved to Bangbae, Seoul. Due to her poor living conditions at the time, IU stated that she "loved being at the studio", where she could eat as much as she wanted and had a place to sleep. 
+                Her burgeoning career led to her decreased attendance at school and declining grades, with the exception of Korean literature. After graduating from Dongduk Girls' High School in 2012, IU decided not to pursue post-secondary education in tandem with her singing career.</p>
+        </div>
+        <div class="life-pic">
+            <img src="photos/baby iu.jpg" class="baby-pic2" alt="baby iu">
+            <img src="photos/baby iu1.jpg" class="baby-pic2" alt="baby iu">
+            <img src="photos/baby iu2.png" class="baby-pic2" alt="baby iu">
+            <img src="photos/teen iu.jpg" class="baby-pic2" alt="baby iu">
+            <img src="photos/teen iu1.jpg" class="baby-pic2" alt="baby iu">
+            <img src="photos/teen iu2.jpg" class="baby-pic2" alt="baby iu">
+        </div>
+    </div>
+</section>
+
+<!-- footer -->
+<div class="footer flex">
+    <div class="author">
+        <h1>Author:</h1>
+        <h2>Ramon Rius</h2>
+        <h2>Bachelor of Science in Information Systems</h2>
+    </div>
+    <div class="aut-link">
+        <a href="https://www.facebook.com/reuse30" target="_blank" ><img src="tv/fb.png" alt="fb" class="a-link"></a>
+        <a href="https://www.instagram.com/_rmnrius/" target="_blank"><img src="tv/ig.png" alt="ig" class="a-link"></a>
+        <a href="https://www.instagram.com/_rmnrius/" target="_blank" ><img src="tv/twt.png" alt="twt" class="a-link"></a>
+    </div>
+
+</div>
+
+<!-- back to top button -->
+<button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
+<script>
+    // Get the button
+    let mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+</body>
+</html>

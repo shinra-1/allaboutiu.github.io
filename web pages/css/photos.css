@@ -1,0 +1,27 @@
+.container-single {
+   max-width: 1210px;
+   margin: 10px auto;
+   overflow: auto;
+   padding-left: 40px;
+   background-color: white;
+   border-radius: 10px;
+   box-shadow: 0 3px 10px rgba(0,0,0,0.4);
+}
+.title{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+}
+.photos{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 30px;
+    gap: 0px;
+    height: 2800px;
+  }
+  .pic{
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+  }

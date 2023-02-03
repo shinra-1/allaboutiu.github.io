@@ -1,0 +1,45 @@
+
+/* page structure */
+.album{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* album content */
+.album-list{
+    background-color: white;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.4);
+    color: black;
+}
+.title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    color: black;
+}
+.content{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    color: black;
+}
+.album-link{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    color: black;
+}
+.album-link:hover{
+    color: #ffff33;
+    transition: .3s;
+}
+
+/* album picture */
+.album-pic{
+    height: 300px;
+    border-radius: 10px;
+    width: 100%;
+}

@@ -1,0 +1,43 @@
+/* biography */
+.life{
+    margin-top: 20px;
+  }
+  .life-text{
+    background-color: white;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.4);
+    height: 98%;
+  }
+  .life-h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+    color: black;
+  }
+  .life-p1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    color: black;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .life-pic {
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+  .baby-pic2{
+    width: 95%;
+    height: 95%;
+    border: none;
+    border-radius: 10px;
+  }

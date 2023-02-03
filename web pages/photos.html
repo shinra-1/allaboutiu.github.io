@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/photos.css">
+    <title>All About IU</title>
+    <link rel="icon" type="image/x-icon" href="photos/logo.png">
+</head>
+<body>
+<!-- header -->
+<div class="menu">
+    <div class="container flex">
+        <div class="logo">
+            <img src="photos/logo.png" alt="logo">
+            <a href="../index.html" class="logo-title">All About IU</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="biography.html" class="link">Biography</a></li>
+                <li><a href="albums.html" class="link">Albums</a></li>
+                <li><a href="films.html" class="link">Films and TV Dramas</a></li>
+                <li><a href="photos.html" class="link">Photos</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+<!-- Photos -->
+<section class="pictures">
+    <div class="container-single">
+        <h1 class="title">Photos</h1>
+        <div class="photos">
+           <img src="photos/fancam.jpg" class="pic" alt="IU">
+           <img src="photos/fancam6.jpg" class="pic" alt="IU">
+           <img src="photos/fancam20.jpg" class="pic" alt="IU">
+           <img src="photos/fancam3.jpg" class="pic" alt="IU">
+           <img src="photos/lady iu1.png" class="pic" alt="IU">
+           <img src="photos/lady iu2.jpeg" class="pic" alt="IU">
+           <img src="photos/fancam16.jpg" class="pic" alt="IU">
+           <img src="photos/fancam10.jpg" class="pic" alt="IU">
+           <img src="photos/fancam19.jpg" class="pic" alt="IU">
+           <img src="photos/fancam5.jpg" class="pic" alt="IU">
+           <img src="photos/fancam21.jpg" class="pic" alt="IU">
+           <img src="photos/baby iu.jpg" class="pic" alt="IU">
+           <img src="photos/baby iu1.jpg" class="pic" alt="IU">
+           <img src="photos/baby iu2.png" class="pic" alt="IU">
+           <img src="photos/teen iu.jpg" class="pic" alt="IU">
+           <img src="photos/fancam4.jpg" class="pic" alt="IU">
+           <img src="photos/fancam7.jpg" class="pic" alt="IU">
+           <img src="photos/fancam8.jpg" class="pic" alt="IU">
+           <img src="photos/fancam9.jpg" class="pic" alt="IU">
+           <img src="photos/fancam11.jpg" class="pic" alt="IU">
+           <img src="photos/fancam12.jpg" class="pic" alt="IU">
+           <img src="photos/fancam13.jpg" class="pic" alt="IU">
+           <img src="photos/fancam14.jpg" class="pic" alt="IU">
+           <img src="photos/fancam15.jpg" class="pic" alt="IU">
+           <img src="photos/fancam17.jpg" class="pic" alt="IU">
+           <img src="photos/fancam18.jpg" class="pic" alt="IU">
+           <img src="photos/iu.png" class="pic" alt="IU">
+           <img src="photos/iu1.jpeg" class="pic" alt="IU">
+           <img src="photos/teen iu4.jpg" class="pic" alt="IU">
+           <img src="photos/teen iu3.jpeg" class="pic" alt="IU">
+           <img src="photos/teen iu2.jpg" class="pic" alt="IU">
+           <img src="photos/teen iu1.jpg" class="pic" alt="IU">
+        </div>
+    </div>
+</section>
+
+<!-- footer -->
+<div class="footer flex">
+    <div class="author">
+        <h1>Author:</h1>
+        <h2>Ramon Rius</h2>
+        <h2>Bachelor of Science in Information Systems</h2>
+    </div>
+    <div class="aut-link">
+        <a href="https://www.facebook.com/reuse30" target="_blank" ><img src="tv/fb.png" alt="fb" class="a-link"></a>
+        <a href="https://www.instagram.com/_rmnrius/" target="_blank"><img src="tv/ig.png" alt="ig" class="a-link"></a>
+        <a href="https://www.instagram.com/_rmnrius/" target="_blank" ><img src="tv/twt.png" alt="twt" class="a-link"></a>
+    </div>
+
+</div>
+
+<!-- back to top button -->
+<button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
+<script>
+    // Get the button
+    let mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+</body>
+</html>
